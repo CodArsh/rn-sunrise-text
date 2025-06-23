@@ -18,9 +18,9 @@ yarn add @arsil_malek/rn-sunrise-text
 
 ## 🚀 Usage
 ``` tsx
-import React from 'react';
-import { View, StyleSheet } from 'react-native';
-import SunriseText from '@arsil_malek/rn-sunrise-text';
+import { StyleSheet } from 'react-native'
+import React from 'react'
+import SunriseText from '@arsil_malek/rn-sunrise-text'
 
 const App = () => {
   const lines = [
@@ -30,29 +30,21 @@ const App = () => {
     '🚀 Keep building,',
     '🌈 Make it happen.',
   ];
-
   return (
-    <View style={styles.container}>
-      <SunriseText
-        lines={lines}
-        duration={500}
-        delay={300}
-        textStyle={{ fontSize: 20, fontWeight: 'bold', color: '#333' }}
-      />
-    </View>
-  );
-};
+    <SunriseText
+      lines={lines}
+      delayBetweenLines={250}
+      animationDuration={300}
+      lineStyle={styles.sunriseText}
+    />
+  )
+}
 
 const styles = StyleSheet.create({
-  container: {
-    flex: 1,
-    justifyContent: 'center',
-    alignItems: 'center',
-    padding: 20,
-  },
+  sunriseText: { fontSize: 25, fontWeight: '600', color: '#000', marginBottom: 15 }
 });
 
-export default App;
+export default App
 ```
 
 ## ✨ Props
