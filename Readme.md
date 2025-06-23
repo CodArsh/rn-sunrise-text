@@ -48,13 +48,15 @@ export default App
 ```
 
 ## ✨ Props
-| Prop             | Type        | Description                                      | Default |
-| ---------------- | ----------- | ------------------------------------------------ | ------- |
-| `lines`          | `string[]`  | Array of lines to animate                        | `[]`    |
-| `duration`       | `number`    | Duration (ms) for each line’s fade-in animation  | `500`   |
-| `delay`          | `number`    | Delay (ms) between each line's appearance        | `300`   |
-| `textStyle`      | `TextStyle` | Style for each text line (fontSize, color, etc.) | `{}`    |
-| `containerStyle` | `ViewStyle` | Optional custom style for wrapping container     | `{}`    |
+| **Prop**            | **Type**                    | **Description**                                                               | **Default**              |
+| ------------------- | --------------------------- | ----------------------------------------------------------------------------- | ------------------------ |
+| `lines`             | `string[]`                  | Array of text lines to animate one by one.                                    | **Required**             |
+| `lineStyle`         | `StyleProp<TextStyle>`      | Custom style applied to each line of text.                                    | `undefined`              |
+| `delayBetweenLines` | `number`                    | Time delay (in ms) between the appearance of each line.                       | `400`                    |
+| `animationDuration` | `number`                    | Duration (in ms) of the animation for each line.                              | `500`                    |
+| `easing`            | `(value: number) => number` | Custom easing function from `Easing` module (e.g., `Easing.out(Easing.exp)`). | `Easing.out(Easing.exp)` |
+| `startDelay`        | `number`                    | Initial delay (in ms) before the animation starts.                            | `0`                      |
+
 
 
 ## 🛠️ Contributing
