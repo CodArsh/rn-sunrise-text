@@ -1,6 +1,6 @@
 {
-  "name": "@arsil_malek/react-native-sunrise-text",
-  "version": "1.0.0",
+  "name": "@arsil_malek/rn-sunrise-text",
+  "version": "1.0.1",
   "main": "dist/index.js",
   "types": "dist/types/index.d.ts",
   "scripts": {
@@ -27,7 +27,7 @@
   "license": "MIT",
   "repository": {
     "type": "git",
-    "url": "https://github.com/CodArsh/rn-scale-window"
+    "url": "https://github.com/CodArsh/rn-sunrise-text"
   },
   "description": "Beautifully animates text lines with a sunrise effect — perfect for quotes, onboarding, and storytelling.",
   "devDependencies": {

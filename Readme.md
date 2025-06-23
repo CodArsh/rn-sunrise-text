@@ -1,4 +1,4 @@
-## 🌅 react-native-sunrise-text
+## 🌅 @arsil_malek/rn-sunrise-text
 
 Bring your text to life with a smooth **sunrise animation effect**, line by line.  
 Perfect for quotes, onboarding screens, storytelling, or impactful messages.
@@ -11,16 +11,16 @@ Perfect for quotes, onboarding screens, storytelling, or impactful messages.
 ## 📦 Installation
 
 ```bash
-npm install react-native-sunrise-text
+npm install @arsil_malek/rn-sunrise-text
 # OR
-yarn add react-native-sunrise-text
+yarn add @arsil_malek/rn-sunrise-text
 ```
 
 ## 🚀 Usage
 ``` tsx
 import React from 'react';
 import { View, StyleSheet } from 'react-native';
-import SunriseText from 'react-native-sunrise-text';
+import SunriseText from '@arsil_malek/rn-sunrise-text';
 
 const App = () => {
   const lines = [
