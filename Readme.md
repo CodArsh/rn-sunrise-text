@@ -6,7 +6,7 @@ Perfect for quotes, onboarding screens, storytelling, or impactful messages.
 ---
 
 ## 🎞 Demo
-![Toast Demo](https://github.com/CodArsh/rn-sunrise-text/blob/master/assets/demo.gif)
+![Toast Demo](https://github.com/CodArsh/rn-sunrise-text/blob/master/assets/demo1.gif)
 
 ## 📦 Installation
 
