@@ -1,0 +1,40 @@
+{
+  "name": "@arsil_malek/react-native-sunrise-text",
+  "version": "1.0.0",
+  "main": "dist/index.js",
+  "types": "dist/types/index.d.ts",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "tsc"
+  },
+  "publishConfig": {
+    "access": "public"
+  },
+  "keywords": [
+    "react-native",
+    "animated text",
+    "text animation",
+    "sunrise animation",
+    "line by line animation",
+    "react native text effects",
+    "auto reveal text",
+    "typing animation",
+    "quote animation",
+    "react-native-ui",
+    "react-native-components"
+  ],
+  "author": "Arsil Malek",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/CodArsh/rn-scale-window"
+  },
+  "description": "Beautifully animates text lines with a sunrise effect — perfect for quotes, onboarding, and storytelling.",
+  "devDependencies": {
+    "@types/react": "^19.1.8",
+    "@types/react-native": "^0.72.8",
+    "react": "^19.1.0",
+    "react-native": "^0.80.0",
+    "typescript": "^5.8.3"
+  }
+}
